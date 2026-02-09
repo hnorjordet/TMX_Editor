@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# TMX files (may be large / contain proprietary translation data)
+*.tmx
+*.TMX
+
+# Claude Code
+.claude/
+
+# Reports and exports (generated files)
+*_analysis_report_*.txt
+*_edited_*.tmx
+*_deduped_*.tmx
+*_cleaned_*.tmx
+*_filtered_*.tmx
+*_merged_*.tmx
+*_export_*.csv
+merged_*.tmx
